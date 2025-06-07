@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hardware Class</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
-      height: 100vh;
+      height: 100%;
+      background: #f0f0f0;
+    }
+
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #f0f0f0;
     }
-    img {
-      max-width: 90%;
+
+    .image-wrapper img {
+      max-width: 90vw;
+      max-height: 90vh;
+      width: auto;
       height: auto;
       border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
 <body>
-  <a href="https://example.com" target="_blank">
-    <img src="VTCHorana.jpg" alt="Click to visit">
+  <a href="https://example.com" target="_blank" class="image-wrapper">
+    <img src="VTCHorana.jpg" alt="My Image" />
   </a>
 </body>
 </html>
